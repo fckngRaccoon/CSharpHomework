@@ -1,4 +1,6 @@
-﻿Console.Write("Введите два числа: ");
+﻿using System;
+
+Console.Write("Введите два числа: ");
 int FirstNumber = Console.Read();
 Console.Write(", ");
 int SecondNumber = Console.Read();
@@ -17,5 +19,4 @@ else if (FirstNumber > SecondNumber)
 else
 {
    Console.WriteLine("Числа равны!");
-
 }
